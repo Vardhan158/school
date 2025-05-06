@@ -279,6 +279,11 @@ header {
   .profile-dropdown .dropbtn {
     font-size: 14px;
   }
+
+  .subject-tile {
+    font-size: 18px;
+    padding: 15px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -288,6 +293,10 @@ header {
 
   .sidebar {
     width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
   }
 
   .menu-btn {
@@ -299,7 +308,30 @@ header {
     align-items: flex-start;
   }
 
+  .title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .redeem-link {
+    font-size: 14px;
+    padding: 8px;
+  }
+
   .profile-dropdown {
     margin-top: 10px;
+  }
+
+  .subject-tile {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .attendance table {
+    font-size: 14px;
+  }
+
+  .attendance th, .attendance td {
+    padding: 8px;
   }
 }
